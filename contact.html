@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+<style media="screen">
+  * {
+    box-sizing: border-box;
+  }
+
+  #home {
+    background-color: green;
+    width: auto;
+    text-decoration: none;
+    padding: 15px;
+    margin-top: 20px;
+    color: white;
+  }
+
+  .arng {
+    width: 47%;
+    float: left;
+    padding: 5px;
+    background-color: hsla(360, 50%, 50%, 0.2);
+    margin-left: 5px;
+
+
+  }
+
+  .main::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+</style>
+
+<body>
+  <center>
+    <h1>Contact Us</h1>
+    <p><strong>Abdul JALEEL</strong></p>
+    <p>e-mail: babu0008here@gmail.com</p>
+    <p>Mobile: +91 9865028837</p>
+    <br>
+    <a href="index.html" id="home">Go to Home Page</a>
+  </center>
+
+  <br>
+  <br>
+  <form class="" action="index.html" method="post">
+    <label>Your Name</label>
+    <input type="text" name="" value="">
+    <input type="color" name=""> <br><br>
+    <label>Password</label>
+    <input type="password" name="" value=""><br>
+    <label>Do you want to sign up to the email list?</label>
+    <input type="checkbox" name="" value="">
+    <input type="submit" name="">
+  </form>
+  <br>
+  <hr size="3px" noshade width="95%">
+  <br>
+  <div class="main">
+    <div class="arng">
+      <form class="" action="mailto:babu0008here@gmail.com" method="post" enctype="text/plain">
+        <label>Your Name</label>
+        <input type="text" name="Name" value=""><br><br>
+        <label>Select Date:</label>
+        <input type="date" name="Selected Date" value=""><br><br>
+        <label>Select File:</label>
+        <input type="file" name="" value=""><br><br>
+        <label>Male</label>
+        <input type="radio" name="GenderMale" value="yes">
+        <label>Female</label>
+        <input type="radio" name="GenderFemale" value=""><br><br>
+        <label>Select a Range</label>
+        <input type="range" name="" value=""><br><br>
+        <label>Enter your Mobile Number</label>
+        <input type="tel" name="Your Mobile Number" value=""><br><br>
+        <label>Enter your entry time here</label>
+        <input type="time" name="Entry Time" value="">
+    </div>
+    <div class="arng">
+      <label>Enter your e-mail id:</label>
+      <input type="email" name="Your Mail id" value=""><br><br>
+      <label>Search your query</label>
+      <input type="search" name="query" value=""><br><br>
+      <label>Type Your Message</label><br>
+      <textarea name="Your Message" rows="8" cols="80"></textarea><br>
+      <input type="reset" name="" value="Reset">
+      <input type="submit" name="" value="submit">
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
